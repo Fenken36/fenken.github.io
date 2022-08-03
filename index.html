@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Website</title>
+    <link rel="stylesheet" href="C:\Users\Alex Londono\Desktop\Projects\tutorial\index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href=""><img src="images\eren.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SOCIALS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+
+        <div class="text-box">
+            <h1>Welcome to my new site</h1>
+            <p>I'm just testing stuff out, should I make a cakies website? </p>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="hero-btn">Click here for my secret ONLYFANS!</a>
+        </div>
+    </section>
+    <!----course---->
+
+    <section class="course">
+        <h1>Text</h1>
+        <p>I'm eating my brownie as a type this.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Emma "cakies" B.</h3>
+                <p>My bestie. I wish I could share this brownie with you.</p>
+            </div>
+            <div class="course-col">
+                <h3>krust</h3>
+                <p>I need logos and stuff eventually, can I hire you? I'll pay of course.</p>
+            </div>
+            <div class="course-col">
+                <h3>Austan AKA Asstan</h3>
+                <p>Congrats on Ascendant, now lets see you hit Immortal, keep grinding.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+<!----javascript for toggle menu---->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
