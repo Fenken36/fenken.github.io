@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Website</title>
+    <link rel="stylesheet" href="C:\Users\Alex Londono\Desktop\Projects\tutorial\index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/4f9b85fc2e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href=""><img src="images\eren.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+
+        <div class="text-box">
+            <h1>Welcome to my new site</h1>
+            <p>I'm just testing stuff out, should I make a cakies website? </p>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="hero-btn">Click here for my secret ONLYFANS!</a>
+        </div>
+    </section>
+    
+    <!----course---->
+
+    <section class="course">
+        <h1>Text</h1>
+        <p>I'm eating my brownie as a type this.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>text here</h3>
+                <p>text here</p>
+            </div>
+            <div class="course-col">
+                <h3>text here</h3>
+                <p>text here</p>
+            </div>
+            <div class="course-col">
+                <h3>text here</h3>
+                <p>text here</p>
+            </div>
+        </div>
+    </section>
+    
+       <!---- campus ---->
+    
+    <section class="campus">
+        <h1>My favorite anime character</h1>
+        <p>Eren Yeager</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="./images/neren.jpg" alt="">
+                <div class="layer">
+                        <h3>EREN YEAGER</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./images/neren.jpg" alt="">
+                <div class="layer">
+                        <h3>EREN YEAGER</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./images/neren.jpg" alt="">
+                <div class="layer">
+                        <h3>EREN YEAGER</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!------facilities------>
+    <section class="facilities">
+        <h1>frog</h1>
+        <p>Melon</p>
+        <div class="row">
+            <div class="facilities-col">  
+                <img src="./images/cakies_melon.jpg" alt="">
+                <h3>TEXT HERE</h3>
+                <p>TEXT HERE</p>
+            </div>
+            <div class="facilities-col">  
+                <img src="./images/cakies_melon.jpg" alt="">
+                <h3>TEXT HERE</h3>
+                <p>TEXT HERE</p>
+            </div>
+            <div class="facilities-col">  
+                <img src="./images/cakies_melon.jpg" alt="">
+                <h3>TEXT HERE</h3>
+                <p>TEXT HERE</p>
+            </div>
+
+        </div>
+    
+    
+    
+    </section>
+
+    <!--------testimonials--------->
+
+    <section class="testi">
+        <h1>TEXT HERE</h1>
+        <p>TEXT HERE</p>
+        <div class="row">
+            <div class="testi-col">
+                <img src="./images/gokupeace.jpg" alt="">
+                <div>
+                    <p>Text Here</p>
+                    <h3>TEXT HERE</h3>
+                </div>
+            </div>
+            <div class="testi-col">
+                <img src="./images/gokupeace.jpg" alt="">
+                <div>
+                    <p>Text Here</p>
+                    <h3>TEXT HERE</h3>
+                </div>
+            </div>
+            <div class="testi-col">
+                <img src="./images/gokupeace.jpg" alt="">
+                <div>
+                    <p>Text Here</p>
+                    <h3>TEXT HERE</h3>
+                </div>
+            </div>
+
+
+        </div>
+    
+    
+    </section>
+
+
+    <!-------call to action--------->
+    <section class="cta">
+        <h1>Ignore this button if you like Andrew Tate</h1>
+        <a href="https://twitter.com/fenken36" class="hero-btn">TWEET AT ME</a>
+
+
+    </section>
+
+    <!-------footer--------->
+
+<section class="footer">
+    <h4>text here</h4>
+    <p>text here</p>
+    <div class="icons">
+        <a href="https://www.linkedin.com/in/alejandro-londono-698971135/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://twitter.com/fenken36"><i class="fa-brands fa-square-twitter"></i></a>
+        <a href="https://github.com/Fenken36"><i class="fa-brands fa-square-github"></i></a>
+    </div>
+</section>
+
+
+<!----javascript for toggle menu---->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
